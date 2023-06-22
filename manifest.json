@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "TubeSense",
+  "version": "1.0",
+
+  "description": "An extension that helps you to idetify the preception of a youtube video",
+  "icons": {
+    "16": "assets/default-16.png",
+    "32": "assets/default-32.png",
+    "48": "assets/default-48.png",
+    "128": "assets/default-128.png"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["https://www.googleapis.com/"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "host_permissions": ["https://*.youtube.com/*"]
+}
