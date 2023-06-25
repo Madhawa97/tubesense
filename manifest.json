@@ -18,5 +18,5 @@
   "action": {
     "default_popup": "popup.html"
   },
-  "host_permissions": ["https://www.googleapis.com/","https://www.youtube.com/*","https://*.youtube.com/*"]
+  "host_permissions": ["https://www.googleapis.com/","https://www.youtube.com/*","https://*.youtube.com/*","https://render-app-for-tubesense-api.onrender.com/", "http://127.0.0.1:8000/"]
 }
